@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title> Booksky</title>
+</head>
+<body>
+    <h1>Booksky</h1>
+    <div class="bodycontent">
+        <div class="bookcontent">
+            <h2>It's start with us</h2>
+            <h5>collen hoover</h5>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, temporibus quis nisi enim tempora aperiam quibusdam omnis nemo distinctio accusantium libero tenetur cumque ipsam impedit minima sapiente soluta fugiat ea.</p>
+            <button onclick="deletefunction(event)">Delete</button>
+        </div>
+        <button id="formbtn">+</button>
+    </div>
+
+    <div class="addbookcontainer"></div>
+        <div class="addbook">
+            <h2>Add book</h2>
+            <form id="form1">
+            <input type="text" id="bookname1" placeholder="Book Name">
+            <input type="text" id="author1" placeholder="Author">
+            <textarea id="textarea1" placeholder="Description"></textarea>
+            <button id="addbtn1">ADD</button> <button id="cancelbtn">CANCEL</button>
+            </form>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      
+}
+h1{
+    background-color: lightcoral;
+    width: 100%;
+    padding: 15px;
+}
+
+
+
+.bookcontent{
+    background-color: black;
+    color: white;
+    width: 25%;
+    margin:30px;
+    border-radius: 12px;
+    padding: 20px;
+    display: inline-block;
+}
+
+.bookcontent h2{
+    color:lightcoral;
+}
+.bookcontent button{
+    background-color: lightcoral;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    border: none;
+}
+#formbtn{
+    background-color: lightcoral;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 100%;
+    border: none;
+    font-size: 35px;
+    position: absolute;
+    bottom: 40px;
+    right: 45px;
+}
+
+.addbookcontainer{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.8;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.addbook{
+    background-color: lightcoral;
+    width: 480px;
+    height: 300px;
+    padding: 30px;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    border-radius: 10px;
+    border: none;
+    z-index: 2;
+    display: none;
+}
+.addbook h2{
+    margin-top: 15px;
+}
+
+.addbook input{
+    background-color: transparent;
+    border:none;
+    border-bottom: 2px solid;
+    width:100%;
+    margin: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.addbook textarea{
+    background-color: transparent;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border: 2px solid;
+}
+.addbook::{
+    color: black;
+}
+.addbook button{
+    background-color: black;
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 14px;
+    padding-right: 14px;
+    margin: 10px;
+    border: none;
+}
+
